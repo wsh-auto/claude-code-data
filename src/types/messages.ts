@@ -55,7 +55,7 @@ export interface ClaudeAPIResponse {
   content: AssistantContentBlock[];
   stop_reason: StopReason;
   stop_sequence: string | null;
-  usage: TokenUsage;
+  usage?: TokenUsage;
 }
 
 export type AssistantContentBlock = TextContentBlock | ToolUseContentBlock;

@@ -65,15 +65,18 @@ export function calculateConversationStats(
   const assistantMessages = messages.filter(isAssistantMessage);
   const userMessages = messages.filter(isUserMessage);
 
-  // Calculate token totals
+  // Calculate token totals (with safe handling for missing usage data)
   const totalTokens = assistantMessages.reduce(
-    (acc, msg) => ({
-      input: acc.input + msg.message.usage.input_tokens,
-      output: acc.output + msg.message.usage.output_tokens,
-      cacheCreation:
-        acc.cacheCreation + msg.message.usage.cache_creation_input_tokens,
-      cacheRead: acc.cacheRead + msg.message.usage.cache_read_input_tokens,
-    }),
+    (acc, msg) => {
+      const usage = msg.message.usage || {};
+      return {
+        input: acc.input + (usage.input_tokens || 0),
+        output: acc.output + (usage.output_tokens || 0),
+        cacheCreation:
+          acc.cacheCreation + (usage.cache_creation_input_tokens || 0),
+        cacheRead: acc.cacheRead + (usage.cache_read_input_tokens || 0),
+      };
+    },
     { input: 0, output: 0, cacheCreation: 0, cacheRead: 0 },
   );
 
