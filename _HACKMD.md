@@ -1,6 +1,6 @@
 ---
-hackmd: https://hackmd.io/AC6zg1DMTnO-qO01dq4OBw
-hackmd-short: https://hackmd.io/@wsh-auto/SJx2F5tkbe
+hackmd: https://hackmd.io/LWL4Aww-Ts2uDME0SCuCKg
+hackmd-short: https://hackmd.io/@wsh-auto/BkWPUjY1Ze
 ---
 
 # claude-code-data Documentation
@@ -18,10 +18,10 @@ hackmd-short: https://hackmd.io/@wsh-auto/SJx2F5tkbe
 - [data-models-and-schemas.md](https://hackmd.io/RQizTrPESh-KaU0ET1Edzg)
 - [implementation-notes.md](https://hackmd.io/VdWLJAMARsSheFqKgeeicQ)
 
-@/Users/eshao/mnt/mdr/skills/use-claude-projects/src/vendor/claude-code-data/README.md
-@/Users/eshao/mnt/mdr/skills/use-claude-projects/src/vendor/claude-code-data/STRUCTURE.md
-@/Users/eshao/mnt/mdr/skills/use-claude-projects/src/vendor/claude-code-data/docs/README.md
-@/Users/eshao/mnt/mdr/skills/use-claude-projects/src/vendor/claude-code-data/docs/claude-code-data-storage-analysis.md
-@/Users/eshao/mnt/mdr/skills/use-claude-projects/src/vendor/claude-code-data/docs/conversation-format-specification.md
-@/Users/eshao/mnt/mdr/skills/use-claude-projects/src/vendor/claude-code-data/docs/data-models-and-schemas.md
-@/Users/eshao/mnt/mdr/skills/use-claude-projects/src/vendor/claude-code-data/docs/implementation-notes.md
+@/Users/eshao/mnt/mdr/skills/lib-claude-code-data/src/vendor/claude-code-data/README.md
+@/Users/eshao/mnt/mdr/skills/lib-claude-code-data/src/vendor/claude-code-data/STRUCTURE.md
+@/Users/eshao/mnt/mdr/skills/lib-claude-code-data/src/vendor/claude-code-data/docs/README.md
+@/Users/eshao/mnt/mdr/skills/lib-claude-code-data/src/vendor/claude-code-data/docs/claude-code-data-storage-analysis.md
+@/Users/eshao/mnt/mdr/skills/lib-claude-code-data/src/vendor/claude-code-data/docs/conversation-format-specification.md
+@/Users/eshao/mnt/mdr/skills/lib-claude-code-data/src/vendor/claude-code-data/docs/data-models-and-schemas.md
+@/Users/eshao/mnt/mdr/skills/lib-claude-code-data/src/vendor/claude-code-data/docs/implementation-notes.md
