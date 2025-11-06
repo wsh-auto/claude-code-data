@@ -8,8 +8,6 @@ hackmd: https://hackmd.io/9n9fQk3TQgaVNN8VA_uoQw
 ---
 # Usage Guidelines for lib-ccd
 
-**Mandatory Reading**: @README.md @docs/conversation-format-specification.md
-
 ## TABLE OF CONTENTS
 1. What Agents Need to Know
 2. Quick Start for Common Tasks
@@ -25,6 +23,8 @@ hackmd: https://hackmd.io/9n9fQk3TQgaVNN8VA_uoQw
 	- Analyzer Functions
 	- Type Definitions
 5. When to Read Each Doc
+
+**Mandatory Reading**: @README.md @docs/conversation-format-specification.md
 
 ## What Agents Need to Know
 
