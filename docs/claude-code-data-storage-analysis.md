@@ -1,4 +1,39 @@
+---
+hackmd: https://hackmd.io/z-61-NfATUW81QHuJZt0Jw
+---
 # Claude Code Data Storage Analysis
+
+## TABLE OF CONTENTS
+1. Overview
+2. Directory Structure
+	- Root Level Files
+	- .claude Directory Structure
+3. Main Configuration File (.claude.json)
+	- Top-Level Structure
+	- Project Configuration Model
+	- Key Fields Explained
+4. Project Storage Structure
+	- Project Directory Naming
+	- Conversation Files (JSONL Format)
+5. Settings and Configuration
+	- Local Settings (.claude/settings.local.json)
+6. Todo System
+	- Todo Storage Structure
+7. Feature Flags and Analytics
+	- Statsig Integration
+8. IDE Integration
+	- IDE Lock File (.claude/ide/18022.lock)
+9. Data Models Summary
+	- Core Entities
+10. Storage Characteristics
+	- Performance Optimizations
+	- Data Integrity
+	- Privacy Considerations
+11. Technical Implementation Notes
+	- Message Threading
+	- Cost Tracking
+	- Tool Integration
+	- Extensibility
 
 ## Overview
 

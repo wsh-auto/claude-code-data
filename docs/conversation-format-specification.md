@@ -1,4 +1,55 @@
+---
+hackmd: https://hackmd.io/ZQm-OQmaS4GN4EEhC9KmDg
+---
 # Claude Code Conversation Format Specification
+
+## TABLE OF CONTENTS
+1. Overview
+2. File Naming and Location
+	- File Path Structure
+	- Path Encoding
+	- Example File Paths
+3. File Format
+	- JSONL Structure
+	- Line Ordering
+4. Summary Entries
+	- Schema
+	- Example
+	- Multiple Summaries
+5. Message Entries
+	- Base Message Schema
+6. User Messages
+	- Schema
+	- Content Types
+	- Special User Message Types
+	- Tool Use Results
+7. Assistant Messages
+	- Schema
+	- Assistant Content Types
+	- Cost and Performance Tracking
+8. Message Threading and Relationships
+	- Parent-Child Relationships
+	- Conversation Flow
+	- Sidechain Support
+9. Conversation State Management
+	- Session Management
+	- Working Directory Context
+10. Tool Integration Patterns
+	- Tool Execution Flow
+	- Tool Result Examples
+11. Error Handling and Edge Cases
+	- Error Messages
+	- Interrupted Operations
+12. Version Compatibility
+	- Version Field
+	- Schema Evolution
+13. Performance Considerations
+	- File Size Management
+	- Memory Efficiency
+	- Concurrent Access
+14. Data Integrity
+	- Validation Rules
+	- Consistency Checks
 
 ## Overview
 

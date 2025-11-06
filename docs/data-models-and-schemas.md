@@ -1,4 +1,31 @@
+---
+hackmd: https://hackmd.io/RQizTrPESh-KaU0ET1Edzg
+---
 # Claude Code Data Models and Schemas
+
+## TABLE OF CONTENTS
+1. Overview
+2. Core Configuration Models
+	- Main Configuration (.claude.json)
+	- Project Configuration
+3. Conversation Models
+	- Base Message Structure
+	- Summary Messages
+	- User Messages
+	- Assistant Messages
+	- Assistant Content Types
+4. Tool Use Result Models
+5. Todo System Models
+6. Settings and Permissions
+7. IDE Integration Models
+8. Analytics and Feature Flags (Statsig)
+9. Validation Schemas
+	- JSON Schema Definitions
+10. Type Guards and Utilities
+11. Enums and Constants
+12. Migration and Versioning
+13. Error Types
+14. Export/Import Models
 
 ## Overview
 

@@ -1,4 +1,41 @@
+---
+hackmd: https://hackmd.io/_81a8TgmTvSZr8K9QPeOPg
+---
 # Claude Code Data
+
+## TABLE OF CONTENTS
+1. Repository Contents
+	- 📚 Documentation (Reverse Engineering Analysis)
+	- 💻 TypeScript Library (Parser & Analyzer)
+2. Quick Start - Understanding Claude Code Data
+3. TypeScript Library Usage
+	- Installation
+	- Basic Parsing
+	- Analyzing Conversations
+	- Type Guards
+	- Building Conversation Trees
+4. Development
+5. Key Features
+	- 📖 Parser Library
+	- 📊 Analysis Tools
+	- 🔍 Data Insights
+6. API Reference
+	- Types
+	- Parser Functions
+	- Analyzer Functions
+	- Type Guards
+7. Data Format Notes
+8. Use Cases
+	- For Developers
+	- For Researchers
+	- For System Administrators
+9. Example Code
+	- Loading a Conversation
+	- Building Conversation Tree
+10. Contributing
+11. Privacy and Ethics
+12. License
+13. Version
 
 This repository contains comprehensive reverse engineering analysis of Claude Code's data storage system **and** a TypeScript library for parsing and analyzing Claude Code conversation files.
 

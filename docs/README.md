@@ -1,4 +1,34 @@
+---
+hackmd: https://hackmd.io/qs3ygxoqS6K9vf9C0WjgGA
+---
 # Claude Code Data Storage Analysis
+
+## TABLE OF CONTENTS
+1. Overview
+2. Repository Structure
+3. Quick Start
+	- Understanding the File Structure
+	- Key Files to Read
+4. Data Format Summary
+	- Conversation Storage (JSONL)
+	- Main Configuration (.claude.json)
+5. Key Insights
+	- Architecture Patterns
+	- Message Threading
+	- Tool Integration
+	- Cost Tracking
+6. Use Cases
+	- For Developers
+	- For Researchers
+	- For System Administrators
+7. Example Code
+	- Loading a Conversation
+	- Building Conversation Tree
+	- Calculating Conversation Stats
+8. Contributing
+9. Privacy and Ethics
+10. License
+11. Version
 
 ## Overview
 

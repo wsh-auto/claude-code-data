@@ -1,4 +1,41 @@
+---
+hackmd: https://hackmd.io/VdWLJAMARsSheFqKgeeicQ
+---
 # Claude Code Implementation Notes
+
+## TABLE OF CONTENTS
+1. Overview
+2. Architecture Patterns
+	- Local-First Data Storage
+	- Append-Only Message Storage
+	- Project-Based Organization
+3. Message Threading Implementation
+	- UUID-Based Message Linking
+	- Conversation Branching
+	- Conversation State Tracking
+4. Tool Integration Patterns
+	- Request-Response Cycle
+	- Tool Permission System
+5. Cost and Usage Tracking
+	- Token-Based Cost Calculation
+	- Performance Metrics
+6. Feature Flag System (Statsig)
+	- Cached Evaluation Storage
+	- Dynamic Configuration
+7. Todo System Implementation
+	- Session-Based Todo Storage
+	- Todo State Transitions
+8. Data Integrity and Validation
+	- Message Validation Rules
+	- Conversation Consistency Checks
+9. Performance Optimizations
+	- Lazy Loading Strategies
+	- Memory Management
+10. Security Considerations
+	- Path Sanitization
+	- Tool Execution Sandboxing
+11. Migration Strategies
+	- Version Migration Framework
 
 ## Overview
 
