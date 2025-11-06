@@ -1,11 +1,12 @@
 ---
-name: lib-claude-code-data
+name: lib-ccd
 description: Comprehensive documentation and parser library for Claude Code conversation logs. Contains reverse-engineered JSONL format specification and TypeScript parser.
 lastUpdated: 2025-11-06
 requiredSkills: []
+requiredFiles: " @README.md @docs/conversation-format-specification.md "
 hackmd: https://hackmd.io/9n9fQk3TQgaVNN8VA_uoQw
 ---
-# Usage Guidelines for lib-claude-code-data
+# Usage Guidelines for lib-ccd
 
 **Mandatory Reading**: @README.md @docs/conversation-format-specification.md
 

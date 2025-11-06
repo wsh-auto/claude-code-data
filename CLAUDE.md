@@ -5,7 +5,7 @@ requiredSkills:
 requiredFiles: " @SKILL.md @README.md @_FAQ.md @_TEST.md @_ISSUES.md @_HACKMD.md "
 hackmd: https://hackmd.io/xShrNKj6Tj6f3XYNhqIUhw
 ---
-# Development Guidelines for lib-claude-code-data
+# Development Guidelines for lib-ccd
 
 ## TABLE OF CONTENTS
 1. What This Skill Contains
