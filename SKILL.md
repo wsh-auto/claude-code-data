@@ -7,6 +7,8 @@ hackmd: https://hackmd.io/9n9fQk3TQgaVNN8VA_uoQw
 ---
 # Usage Guidelines for lib-claude-code-data
 
+**Mandatory Reading**: @README.md @docs/conversation-format-specification.md
+
 ## TABLE OF CONTENTS
 1. What Agents Need to Know
 2. Quick Start for Common Tasks
@@ -40,7 +42,7 @@ This skill contains **claude-code-data** - a TypeScript library that:
 
 **Goal**: Load and parse a Claude Code conversation
 
-**Read**: README.md (sections: TypeScript Library Usage)
+**Read**: @README.md (sections: TypeScript Library Usage)
 
 **Example**:
 ```typescript
@@ -59,7 +61,7 @@ console.log(`Found ${conversation.summaries.length} summaries`);
 
 **Goal**: Understand how Claude Code stores conversations
 
-**Read**: ⭐ **docs/conversation-format-specification.md** (MOST IMPORTANT)
+**Read**: ⭐ **@docs/conversation-format-specification.md** (MOST IMPORTANT)
 
 **Key concepts**:
 - Each conversation is a JSONL file (one JSON object per line)
@@ -85,7 +87,7 @@ console.log(`Found ${conversation.summaries.length} summaries`);
 
 **Goal**: Calculate tokens, cost, duration for a conversation
 
-**Read**: README.md (sections: Analyzing Conversations)
+**Read**: @README.md (sections: Analyzing Conversations)
 
 **Example**:
 ```typescript
@@ -254,10 +256,10 @@ interface SummaryMessage {
 **Decision tree**:
 ```
 Need to parse conversations?
-  → Start with README.md
+  → Start with @README.md
 
 Need to understand JSONL format?
-  → Read docs/conversation-format-specification.md ⭐
+  → Read @docs/conversation-format-specification.md ⭐
 
 Need TypeScript types?
   → Read docs/data-models-and-schemas.md
@@ -266,13 +268,13 @@ Need to understand storage?
   → Read docs/claude-code-data-storage-analysis.md
 
 Need to implement features?
-  → Read STRUCTURE.md, then docs/conversation-format-specification.md
+  → Read STRUCTURE.md, then @docs/conversation-format-specification.md
 
 Debugging issues?
-  → Check docs/conversation-format-specification.md, then implementation-notes.md
+  → Check @docs/conversation-format-specification.md, then implementation-notes.md
 ```
 
 **Pro tip**: Most agents will need:
-1. README.md (how to use)
-2. docs/conversation-format-specification.md (what the format is)
+1. @README.md (how to use)
+2. @docs/conversation-format-specification.md (what the format is)
 3. That's usually enough!
