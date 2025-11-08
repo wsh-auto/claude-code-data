@@ -2,8 +2,8 @@
 requiredSkills:
   - mdr:edit
   - mdr:dev-monkeypatch
-requiredFiles: " @SKILL.md @README.md @_FAQ.md @_TEST.md @_ISSUES.md @_HACKMD.md "
-hackmd: https://hackmd.io/xShrNKj6Tj6f3XYNhqIUhw
+autoLoaded: " @SKILL.md @README.md @_FAQ.md @_TEST.md @_ISSUES.md @_HACKMD.md "
+hackmd: https://hackmd.io/CdDqVzOxT722aDKjPgMn9Q
 ---
 # Development Guidelines for lib-ccd
 

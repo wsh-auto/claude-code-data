@@ -4,7 +4,7 @@ description: Comprehensive documentation and parser library for Claude Code conv
 lastUpdated: 2025-11-06
 requiredSkills: []
 requiredFiles: " @README.md @docs/conversation-format-specification.md "
-hackmd: https://hackmd.io/9n9fQk3TQgaVNN8VA_uoQw
+hackmd: https://hackmd.io/GTSiEB7xQrOfKC0x-Eg7xA
 ---
 # Usage Guidelines for lib-ccd
 
