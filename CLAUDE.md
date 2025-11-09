@@ -216,7 +216,7 @@ git push origin main
 - No patches applied to upstream code
 
 **If adding patches**:
-1. Document in AGENTS.md (create if needed)
+1. Document in CLAUDE.md (create if needed)
 2. Use format from `skill://mdr:dev-monkeypatch`
 3. Test thoroughly after patching
 4. Push to wsh-auto fork
