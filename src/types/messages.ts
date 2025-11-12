@@ -2,7 +2,7 @@
  * Message type definitions for Claude Code conversations
  */
 
-import type { BaseMessage, TokenUsage, StopReason, TodoItem } from "./base";
+import type { BaseMessage, TokenUsage, StopReason, TodoItem } from "./base.js";
 
 // Summary Message
 export interface SummaryMessage {

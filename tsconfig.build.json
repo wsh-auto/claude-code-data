@@ -6,7 +6,9 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "allowImportingTsExtensions": false,
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": false,
+    "module": "node16",
+    "moduleResolution": "node16"
   },
   "include": ["src/index.ts", "src/types", "src/utils", "src/parser"],
   "exclude": ["**/*.test.ts", "test-data"]

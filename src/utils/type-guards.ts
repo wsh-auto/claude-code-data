@@ -11,7 +11,7 @@ import type {
   AssistantContentBlock,
   TextContentBlock,
   ToolUseContentBlock,
-} from "../types/index";
+} from "../types/index.js";
 
 export function isUserMessage(message: BaseMessage): message is UserMessage {
   return message.type === "user";

@@ -2,6 +2,7 @@
 requiredSkills:
   - mdr:edit
   - mdr:dev-monkeypatch
+  - mdr:dev-typescript
 autoLoaded: " @SKILL.md @README.md @_FAQ.md @_TEST.md @_ISSUES.md @_HACKMD.md "
 hackmd: https://hackmd.io/CdDqVzOxT722aDKjPgMn9Q
 ---

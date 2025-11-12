@@ -8,8 +8,8 @@ import {
   ConversationEntry,
   SummaryMessage,
   ConversationMessage,
-} from "../types/index";
-import { isSummaryMessage, isConversationMessage } from "../utils/type-guards";
+} from "../types/index.js";
+import { isSummaryMessage, isConversationMessage } from "../utils/type-guards.js";
 
 export interface ParsedConversation {
   summaries: SummaryMessage[];

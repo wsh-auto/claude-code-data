@@ -2,14 +2,14 @@
  * Analyzer for conversation data - extracts statistics and insights
  */
 
-import type { ConversationMessage } from "../types/index";
+import type { ConversationMessage } from "../types/index.js";
 import {
   isAssistantMessage,
   isUserMessage,
   hasToolResult,
   isToolUseContent,
-} from "../utils/type-guards";
-import type { ParsedConversation } from "./conversation-parser";
+} from "../utils/type-guards.js";
+import type { ParsedConversation } from "./conversation-parser.js";
 
 export interface ConversationStats {
   messageCount: number;
@@ -68,13 +68,13 @@ export function calculateConversationStats(
   // Calculate token totals (with safe handling for missing usage data)
   const totalTokens = assistantMessages.reduce(
     (acc, msg) => {
-      const usage = msg.message.usage || {};
+      const usage = msg.message.usage;
       return {
-        input: acc.input + (usage.input_tokens || 0),
-        output: acc.output + (usage.output_tokens || 0),
+        input: acc.input + (usage?.input_tokens ?? 0),
+        output: acc.output + (usage?.output_tokens ?? 0),
         cacheCreation:
-          acc.cacheCreation + (usage.cache_creation_input_tokens || 0),
-        cacheRead: acc.cacheRead + (usage.cache_read_input_tokens || 0),
+          acc.cacheCreation + (usage?.cache_creation_input_tokens ?? 0),
+        cacheRead: acc.cacheRead + (usage?.cache_read_input_tokens ?? 0),
       };
     },
     { input: 0, output: 0, cacheCreation: 0, cacheRead: 0 },
