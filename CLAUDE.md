@@ -3,7 +3,7 @@ requiredSkills:
   - mdr:edit
   - mdr:dev-monkeypatch
   - mdr:dev-typescript
-autoLoaded: " @SKILL.md @README.md @_FAQ.md @_TEST.md @_ISSUES.md @_HACKMD.md "
+autoLoaded: @SKILL.md @README.md @_FAQ.md @_TEST.md @_ISSUES.md @_HACKMD.md
 hackmd: https://hackmd.io/CdDqVzOxT722aDKjPgMn9Q
 ---
 # Development Guidelines for lib-ccd
@@ -11,18 +11,18 @@ hackmd: https://hackmd.io/CdDqVzOxT722aDKjPgMn9Q
 ## TABLE OF CONTENTS
 1. What This Skill Contains
 2. Documentation Structure
-	- Critical Documentation (Read First)
-	- Technical Documentation (Implementation Details)
-	- Optional Documentation (Deep Dives)
+    - Critical Documentation (Read First)
+    - Technical Documentation (Implementation Details)
+    - Optional Documentation (Deep Dives)
 3. When to Read Which Docs
-	- Scenario 1: Using the Parser Library
-	- Scenario 2: Understanding Claude Code Data Format
-	- Scenario 3: Implementing Features
-	- Scenario 4: Debugging Issues
+    - Scenario 1: Using the Parser Library
+    - Scenario 2: Understanding Claude Code Data Format
+    - Scenario 3: Implementing Features
+    - Scenario 4: Debugging Issues
 4. Testing the Library
 5. Monkeypatch Maintenance
-	- Upstream Sync
-	- Local Patches
+    - Upstream Sync
+    - Local Patches
 6. Next Task
 
 ## What This Skill Contains

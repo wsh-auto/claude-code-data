@@ -7,27 +7,25 @@ requiredFiles: " @README.md @docs/conversation-format-specification.md "
 hackmd: https://hackmd.io/GTSiEB7xQrOfKC0x-Eg7xA
 ---
 # Usage Guidelines for lib-ccd
+**Mandatory Reading**: @README.md @docs/conversation-format-specification.md
 
 ## TABLE OF CONTENTS
 1. What Agents Need to Know
 2. Quick Start for Common Tasks
-	- Task 1: Parse a Conversation File
-	- Task 2: Understand Claude Code JSONL Format
-	- Task 3: Analyze Conversation Statistics
+    - Task 1: Parse a Conversation File
+    - Task 2: Understand Claude Code JSONL Format
+    - Task 3: Analyze Conversation Statistics
 3. Documentation Roadmap
-	- Level 1: Essential (Read These First)
-	- Level 2: Technical Reference (When Implementing)
-	- Level 3: Deep Dives (Optional Context)
+    - Level 1: Essential (Read These First)
+    - Level 2: Technical Reference (When Implementing)
+    - Level 3: Deep Dives (Optional Context)
 4. API Reference
-	- Parser Functions
-	- Analyzer Functions
-	- Type Definitions
+    - Parser Functions
+    - Analyzer Functions
+    - Type Definitions
 5. When to Read Each Doc
 
-**Mandatory Reading**: @README.md @docs/conversation-format-specification.md
-
 ## What Agents Need to Know
-
 This skill contains **claude-code-data** - a TypeScript library that:
 1. Parses Claude Code conversation files (JSONL format)
 2. Provides comprehensive reverse-engineering documentation of Claude Code's data format
@@ -38,9 +36,7 @@ This skill contains **claude-code-data** - a TypeScript library that:
 **Production ready**: 36 passing tests, full TypeScript types, comprehensive documentation.
 
 ## Quick Start for Common Tasks
-
 ### Task 1: Parse a Conversation File
-
 **Goal**: Load and parse a Claude Code conversation
 
 **Read**: @README.md (sections: TypeScript Library Usage)
@@ -59,7 +55,6 @@ console.log(`Found ${conversation.summaries.length} summaries`);
 ---
 
 ### Task 2: Understand Claude Code JSONL Format
-
 **Goal**: Understand how Claude Code stores conversations
 
 **Read**: ⭐ **@docs/conversation-format-specification.md** (MOST IMPORTANT)
@@ -85,7 +80,6 @@ console.log(`Found ${conversation.summaries.length} summaries`);
 ---
 
 ### Task 3: Analyze Conversation Statistics
-
 **Goal**: Calculate tokens, cost, duration for a conversation
 
 **Read**: @README.md (sections: Analyzing Conversations)
@@ -109,9 +103,7 @@ console.log(`Total tokens: ${stats.totalTokens.input + stats.totalTokens.output}
 ---
 
 ## Documentation Roadmap
-
 ### Level 1: Essential (Read These First)
-
 **README.md** - Start here for library usage
 - Installation and quick start
 - Basic parsing examples
@@ -124,7 +116,6 @@ console.log(`Total tokens: ${stats.totalTokens.input + stats.totalTokens.output}
 - Build outputs
 
 ### Level 2: Technical Reference (When Implementing)
-
 **docs/conversation-format-specification.md** ⭐ CRITICAL
 - **Most important doc for understanding Claude Code format**
 - Complete JSONL format specification
@@ -158,7 +149,6 @@ console.log(`Total tokens: ${stats.totalTokens.input + stats.totalTokens.output}
 	- Implementing CLI tools
 
 ### Level 3: Deep Dives (Optional Context)
-
 **docs/implementation-notes.md** - Engineering patterns
 - Architecture patterns (local-first, append-only, UUID-based)
 - Performance optimizations
@@ -178,9 +168,7 @@ console.log(`Total tokens: ${stats.totalTokens.input + stats.totalTokens.output}
 ---
 
 ## API Reference
-
 ### Parser Functions
-
 **`parseConversation(filePath: string): Promise<Conversation>`**
 - Parses entire conversation file
 - Returns: `{ summaries: SummaryMessage[], messages: BaseMessage[] }`
@@ -195,7 +183,6 @@ console.log(`Total tokens: ${stats.totalTokens.input + stats.totalTokens.output}
 - Use: When you need to ensure data integrity
 
 ### Analyzer Functions
-
 **`calculateConversationStats(conversation: Conversation): ConversationStats`**
 - Returns comprehensive statistics
 - Includes: message counts, token usage, cost, duration
@@ -209,7 +196,6 @@ console.log(`Total tokens: ${stats.totalTokens.input + stats.totalTokens.output}
 - Use: Finding current conversation state
 
 ### Type Definitions
-
 ```typescript
 interface BaseMessage {
   uuid: string;
@@ -243,7 +229,6 @@ interface SummaryMessage {
 ---
 
 ## When to Read Each Doc
-
 | Doc | Read When... | Priority |
 |-----|-------------|----------|
 | README.md | Using library for first time | ⭐⭐⭐ |
