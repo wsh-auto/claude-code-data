@@ -3,7 +3,6 @@ requiredSkills:
   - mdr:edit
   - mdr:dev-monkeypatch
   - mdr:dev-typescript
-autoLoaded: ["@SKILL.md", "@README.md", "@_FAQ.md", "@_TEST.md", "@_ISSUES.md", "@_HACKMD.md"]
 hackmd: https://hackmd.io/CdDqVzOxT722aDKjPgMn9Q
 ---
 # Development Guidelines for lib-ccd
@@ -231,3 +230,6 @@ This library is **production-ready** with 36 passing tests. No immediate impleme
 - When understanding Claude Code format, start with docs/conversation-format-specification.md
 - When implementing features, read STRUCTURE.md + relevant docs/
 - When debugging, check test fixtures in test-data/
+
+autoLoaded: @SKILL.md @README.md @_FAQ.md @_TEST.md @_ISSUES.md @_HACKMD.md
+
