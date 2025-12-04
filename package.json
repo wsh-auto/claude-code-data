@@ -31,7 +31,7 @@
     "dev": "vite",
     "build": "tsc --project tsconfig.build.json",
     "preview": "vite preview",
-    "test": "vitest",
+    "test": "vitest run",
     "test:ui": "vitest --ui",
     "typecheck": "tsc --noEmit"
   },
