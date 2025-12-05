@@ -6,7 +6,7 @@ requiredSkills:
   - mdr:dev-typescript
 ---
 
-# lib-ccd (22.0k)
+# lib-ccd (22.1k)
 ## Documentation (5.4k)
 - [@SKILL.md (2.1k)](https://hackmd.io/GTSiEB7xQrOfKC0x-Eg7xA)
 - @CONTRIBUTING.md (3.3k)
