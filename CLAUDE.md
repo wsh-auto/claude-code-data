@@ -12,11 +12,11 @@ requiredSkills:
 - @CONTRIBUTING.md (3.3k)
 
 ## References (2.8k)
-- [@~/mnt/mdr/skills/lib-ccd/docs/conversation-format-specification.md (2.8k)](https://hackmd.io/snxkupLwQXSm9Yuq26zuBQ)
+- [@docs/conversation-format-specification.md (2.8k)](https://hackmd.io/snxkupLwQXSm9Yuq26zuBQ)
 
 ## requiredSkills (13.9k)
-- @~/mnt/mdr/skills/edit/SKILL.md (2.1k)
-- @~/mnt/mdr/skills/dev-monkeypatch/SKILL.md (5.2k)
-  - @~/mnt/mdr/skills/edit-claude-skill/SKILL.md (1.2k)
-    - @~/mnt/mdr/skills/edit-claude-skill/references/editing-skills.md (2.9k)
-- @~/mnt/mdr/skills/dev-typescript/SKILL.md (2.5k)
+- @../edit/SKILL.md (2.1k)
+- @../dev-monkeypatch/SKILL.md (5.2k)
+  - @../edit-claude-skill/SKILL.md (1.2k)
+    - @../edit-claude-skill/references/editing-skills.md (2.9k)
+- @../dev-typescript/SKILL.md (2.5k)
