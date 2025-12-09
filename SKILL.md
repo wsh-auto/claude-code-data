@@ -6,9 +6,9 @@ description: >-
   parser. This skill MUST be loaded when the following case-insensitive keywords
   are encountered in conversation: "ccd".
 lastUpdated: 2025-11-06
-hackmd: "https://hackmd.io/GTSiEB7xQrOfKC0x-Eg7xA"
 requiredFiles:
   - docs/conversation-format-specification.md
+hackmd: "https://hackmd.io/GTSiEB7xQrOfKC0x-Eg7xA"
 ---
 # Usage Guidelines for lib-ccd
 **Mandatory Reading**: @README.md @docs/conversation-format-specification.md
