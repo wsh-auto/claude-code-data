@@ -8,7 +8,6 @@ description: >-
 lastUpdated: 2025-11-06
 hackmd: "https://hackmd.io/GTSiEB7xQrOfKC0x-Eg7xA"
 requiredFiles:
-  - " @docs/conversation-format-specification.md "
   - docs/conversation-format-specification.md
 ---
 # Usage Guidelines for lib-ccd
