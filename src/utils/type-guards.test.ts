@@ -14,7 +14,6 @@ import {
 } from "./type-guards";
 import type {
   UserMessage,
-  AssistantMessage,
   SummaryMessage,
   TextContentBlock,
   ToolUseContentBlock,

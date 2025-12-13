@@ -6,7 +6,7 @@ requiredSkills:
   - mdr:dev-typescript
 ---
 
-# lib-ccd (24.7k)
+# lib-ccd (26.2k)
 ## Documentation (5.4k)
 - [@SKILL.md (2.1k)](https://hackmd.io/GTSiEB7xQrOfKC0x-Eg7xA)
 - @CONTRIBUTING.md (3.3k)
@@ -14,9 +14,9 @@ requiredSkills:
 ## References (2.8k)
 - [@docs/conversation-format-specification.md (2.8k)](https://hackmd.io/snxkupLwQXSm9Yuq26zuBQ)
 
-## requiredSkills (16.5k)
-- @../edit/SKILL.md (2.1k)
+## requiredSkills (18.0k)
+- @../edit/SKILL.md (2.3k)
 - @../dev-monkeypatch/SKILL.md (5.2k)
   - @../edit-claude-skill/SKILL.md (1.2k)
     - @../edit-claude-skill/references/editing-skills.md (3.1k)
-- @../dev-typescript/SKILL.md (4.8k)
+- @../dev-typescript/SKILL.md (6.2k)
