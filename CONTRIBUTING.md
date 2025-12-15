@@ -353,7 +353,7 @@ git push origin main
 
 **If adding patches**:
 1. Document in CLAUDE.md (create if needed)
-2. Use format from `skill://mdr:dev-monkeypatch`
+2. Use format from `$mdr:dev-monkeypatch`
 3. Test thoroughly after patching
 4. Push to wsh-auto fork
 
