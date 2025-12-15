@@ -14,7 +14,7 @@ requiredSkills:
 ## References (2.8k)
 - [@docs/conversation-format-specification.md (2.8k)](https://hackmd.io/snxkupLwQXSm9Yuq26zuBQ)
 
-## requiredSkills (18.9k)
+## requiredSkills (19.0k)
 - @../edit/SKILL.md (2.3k)
 - @../dev-monkeypatch/SKILL.md (5.2k)
   - @../edit-claude-skill/SKILL.md (1.2k)
