@@ -15,6 +15,6 @@ requiredSkills:
 
 ## requiredSkills (17k)
 - @../dev-monkeypatch/SKILL.md (5k)
-  - @../edit-claude-skill/SKILL.md (1k)
-    - @../edit-claude-skill/references/editing-skills.md (3k)
+  - @../edit-skill/SKILL.md (1k)
+    - @../edit-skill/references/editing-skills.md (3k)
 - @../dev-typescript/SKILL.md (8k)
