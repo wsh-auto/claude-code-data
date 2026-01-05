@@ -29,7 +29,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "build-on-mbp && tsc --project tsconfig.build.json",
+    "build": "build-ts-on-mbp && tsc --project tsconfig.build.json",
     "preview": "vite preview",
     "test": "npm run typecheck && vitest run",
     "test:ui": "vitest --ui",
