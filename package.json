@@ -1,5 +1,6 @@
 {
   "name": "claude-code-data",
+  "packageManager": "bun@1.1.45",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,26 +15,29 @@
     "type": "git",
     "url": "https://github.com/your-username/claude-code-data.git"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "import": "./src/index.ts"
     }
   },
   "files": [
-    "dist",
+    "src",
     "README.md"
   ],
   "scripts": {
     "dev": "vite",
-    "build": "([ -n \"$CI\" ] || build-ts-on-mbp) && tsc --project tsconfig.build.json",
     "preview": "vite preview",
-    "test": "npm run typecheck && vitest run",
+    "test": "bun run typecheck && timeout --foreground 300 vitest run",
     "test:ui": "vitest --ui",
     "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mdr/lib-utils": "github:wsh-auto/lib-utils"
+  },
+  "optionalDependencies": {
+    "@mdr/lib-log": "file:../lib-log"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
