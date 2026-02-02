@@ -29,20 +29,26 @@
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
-    "test": "bun run typecheck && timeout --foreground 300 vitest run",
+    "test": "bun run lint && bun run typecheck && timeout --foreground 300 vitest run",
     "test:ui": "vitest --ui",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint '{src,test}/**/*.ts'",
+    "lint:fix": "eslint '{src,test}/**/*.ts' --fix"
   },
   "dependencies": {
     "@mdr/lib-utils": "github:wsh-auto/lib-utils"
   },
   "optionalDependencies": {
-    "@mdr/lib-log": "file:../lib-log"
+    "@mdr/lib-log": "link:@mdr/lib-log"
   },
   "devDependencies": {
+    "@eslint/js": "8.57.0",
+    "@mdr/dev-typescript": "link:@mdr/dev-typescript",
     "@types/node": "^22.15.29",
     "@vitest/ui": "^3.2.1",
+    "eslint": "8.57.0",
     "typescript": "~5.8.3",
+    "typescript-eslint": "7.11.0",
     "vite": "^6.3.5",
     "vitest": "^3.2.1"
   }

@@ -150,17 +150,17 @@ export function buildConversationTree(
   });
 
   // Recursive function to build tree nodes
-  function buildNode(message: ConversationMessage): ConversationNode {
+  function _buildNode(message: ConversationMessage): ConversationNode {
     const children = childrenMap.get(message.uuid) || [];
     return {
       message,
-      children: children.map((child) => buildNode(child)),
+      children: children.map((child) => _buildNode(child)),
     };
   }
 
   // Find root messages (parentUuid === null)
   const roots = childrenMap.get(null) || [];
-  return roots.map((root) => buildNode(root));
+  return roots.map((root) => _buildNode(root));
 }
 
 /**

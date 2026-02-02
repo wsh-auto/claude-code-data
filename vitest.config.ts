@@ -4,7 +4,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "node",
-    pool: "forks",
+    pool: "threads",
     testTimeout: 10000,
     hookTimeout: 10000,
     teardownTimeout: 5000,
